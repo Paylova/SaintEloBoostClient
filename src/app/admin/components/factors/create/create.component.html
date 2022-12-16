@@ -1,0 +1,10 @@
+<mat-form-field appearance="fill" class="factor-crate">
+  <mat-label>Key</mat-label>
+  <input matInput #txtKey>
+</mat-form-field>
+
+<mat-form-field appearance="fill" class="factor-crate">
+  <mat-label>Value</mat-label>
+  <input matInput #txtValue>
+</mat-form-field>
+<button mat-raised-button color="primary" class="btn" (click)="create(txtKey,txtValue)">Create Factor</button>

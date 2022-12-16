@@ -1,0 +1,27 @@
+<mat-form-field appearance="fill" class="customer-create">
+    <mat-label>Name</mat-label>
+    <input matInput #txtName>
+</mat-form-field>
+<mat-form-field appearance="fill" class="customer-create">
+    <mat-label>Surname</mat-label>
+    <input matInput #txtSurname>
+</mat-form-field>
+<mat-form-field appearance="fill" class="customer-create">
+    <mat-label>Nickname</mat-label>
+    <input matInput #txtNickname>
+</mat-form-field>
+<mat-form-field appearance="fill" class="customer-create">
+    <mat-label>Password</mat-label>
+    <input matInput #txtPassword>
+</mat-form-field>
+<mat-form-field appearance="fill" class="customer-create">
+    <mat-label>Mail</mat-label>
+    <input matInput #txtMail>
+</mat-form-field>
+<mat-form-field appearance="fill" class="customer-create">
+    <mat-label>PhoneNumber</mat-label>
+    <input matInput #txtPhoneNumber>
+</mat-form-field>
+
+<button mat-raised-button color="primary" class="btn"
+    (click)="create(txtName,txtSurname,txtNickname,txtPassword,txtMail,txtPhoneNumber)">Create Customer</button>
